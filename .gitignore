@@ -146,6 +146,8 @@ dkms.conf
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++
 
 ### C++ ###
+# Ingnore compiled files
+
 # Prerequisites
 *.d
 
@@ -185,6 +187,8 @@ dkms.conf
 
 ### VisualStudioCode ###
 .vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
 
 # Local History for Visual Studio Code
 .history/
