@@ -64,6 +64,12 @@ int main(int argc, char const *argv[])
     // 11001100 >> 2 = [00]110011
     // 11001100 >> 3 = [000]11001
 
+    // Shited values are filled with 0:
+    // A >> N -> A / 2^N
+    // 8 >> 1 = 4 (A)
+    // 8 >> 2 = 2 (A / 2)
+    // 8 >> 3 = 1 (A / 2 / 2)
+
     // Example: 5 >> 1 = 2 (>> = Right Shift)
     // 5 = 101
     // 2 = 10
@@ -72,6 +78,12 @@ int main(int argc, char const *argv[])
     // Table:
     // 11001100 << 2 = 001100[00]
     // 11001100 << 3 = 11000[000]
+
+    // Shited values are filled with 0:
+    // A << N -> A * 2^N
+    // 1 << 1 = 2 (A)
+    // 1 << 2 = 4 (A * 2)
+    // 1 << 3 = 8 (A * 2 * 2)
 
     // Example: 5 << 1 = 10 (<< = Left Shift)
     // 5 = 101
