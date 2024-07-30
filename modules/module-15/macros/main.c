@@ -23,6 +23,9 @@ int main(int argc, char const *argv[])
      */
 
     printf("The value of PI is: %f\n", PI);
+    printf("The date is: %s\n", __DATE__);
+    printf("The time is: %s\n", __TIME__);
+    printf("The file is: %s\n", __FILE__);
 
     return EXIT_SUCCESS;
 }
