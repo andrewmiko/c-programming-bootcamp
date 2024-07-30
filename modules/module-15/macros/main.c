@@ -16,6 +16,10 @@ int main(int argc, char const *argv[])
      *
      * Example:
      * #define SQUARE(x) x * x
+     *
+     * List of predefined macros:
+     * https://gcc.gnu.org/onlinedocs/cpp/Standard-Predefined-Macros.html
+     *
      */
 
     printf("The value of PI is: %f\n", PI);
